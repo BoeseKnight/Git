@@ -3,3 +3,5 @@ git init
 2. Adding all files to staging, or exact files
 git add .
 git add git_commands.txt
+3. Apply changes into history
+git commit -m "First project commit"
