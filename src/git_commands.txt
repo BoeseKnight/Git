@@ -21,3 +21,4 @@ git reset file.txt
 10. Reseting commits
 git reset --soft HEAD~1  # отменяет коммит, но оставляет изменения staged
 git reset --hard HEAD~1  # полностью удаляет последний коммит (осторожно!)
+11. Trying revert, forgetting to add a command
