@@ -1,0 +1,5 @@
+1. Git empty repository initialization:
+git init
+2. Adding all files to staging, or exact files
+git add .
+git add git_commands.txt
