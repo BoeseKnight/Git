@@ -5,3 +5,16 @@ git add .
 git add git_commands.txt
 3. Apply changes into history
 git commit -m "First project commit"
+4. Show changes and staged files
+git status
+5. Show commits history (--oneline for short answer)
+git log --oneline
+6. Git add remote repository
+git remote add origin https://github.com/username/RepoName.git
+7. Upload changes to server
+git push -u origin main  # первый push (затем можно просто `git push`)
+8. Cancel changes in file
+git restore file.txt
+9. Delete file from staged
+git restore --staged file.txt
+git reset file.txt
